@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const embed = new Discord.RichEmbed()
 const client = new Discord.Client();
  
 client.login(process.env.token);
