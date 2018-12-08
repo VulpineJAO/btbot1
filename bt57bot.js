@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const commando = require('discord.js-commando')
 const embed = new Discord.RichEmbed()
 const client = new Discord.Client();
  
@@ -90,8 +89,6 @@ client.on('message', message => {
 
      }
 
-
-     ///Deliberate misusage of the server bots (i.e.: CyberFox, Rythm) is punishable.
 
 
 });
